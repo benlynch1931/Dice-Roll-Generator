@@ -1,0 +1,26 @@
+.title {
+  font-size: 52;
+  color: green;
+  text-align: center;
+}
+
+.title-div {
+  padding-top: 5;
+}
+
+.die-num {
+  text-align: center;
+}
+.die-print {
+  width: auto;
+}
+
+
+.die-generate {
+  width: auto;
+  text-align: center;
+}
+.roll-button {
+  width: 400px;
+  height: 70px;
+}

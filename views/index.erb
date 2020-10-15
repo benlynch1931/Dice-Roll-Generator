@@ -1,8 +1,28 @@
 <head>
-  <link rel="stylesheet" href="/style.css" type="text/css"/>
+  <link rel="stylesheet" href="/index.css" type="text/css"/>
   <title>Random Dice Generator</title>
 </head>
 
 <div class="title-div">
   <h1 class="title">Random Dice Generator</h1>
+</div>
+
+<div class="die-options-div">
+  <ul class="die-options">
+    <li>
+      <form class="dice-form" action="/one_die" method="post">
+        <input type="submit" class="dice-submit" value="1 Die">
+      </form>
+    </li>
+    <li>
+      <form class="dice-form" action="/two_dice" method="post">
+        <input type="submit" class="dice-submit" value="2 Dice">
+      </form>
+    </li>
+    <li>
+      <form class="dice-form" action="/three_dice" method="post">
+        <input type="submit" class="dice-submit" value="3 Dice">
+      </form>
+    </li>
+  </ul>
 </div>

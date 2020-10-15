@@ -1,0 +1,29 @@
+.title {
+  color: red;
+  font-size: 52;
+  text-align: center;
+}
+
+.title-div {
+  padding-top: 5;
+}
+
+.die-options-div {
+  justify-content: center;
+  width: auto;
+  display: flex;
+}
+
+
+.die-options li {
+  display: inline-flex;
+  flex-grow: 1;
+  align-items: flex-end;
+  text-decoration: none;
+}
+
+.dice-submit {
+  margin: 20px;
+  width: 180px;
+  height: 60px;
+}
