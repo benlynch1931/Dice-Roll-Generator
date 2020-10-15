@@ -47,4 +47,6 @@ class DiceGenerator < Sinatra::Application
     erb :three_dice
   end
 
+
+  run! if app_file == $0
 end
